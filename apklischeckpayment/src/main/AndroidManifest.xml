@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cu.uci.apklischeckpayment">
     <queries>
-        <provider android:authorities="cu.uci.android.apklis.payment.provider" />
+        <package android:name="cu.uci.android.apklis" />
+        <provider android:authorities="cu.uci.android.apklis.PaymentProvider" />
     </queries>
 </manifest>
